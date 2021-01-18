@@ -91,7 +91,7 @@ public class StockDao {
 				stock.setProductUnitPrice(rs.getDouble(4));
 				stock.setReorderLevel(rs.getInt(5));
 			}
-			return stock;
+			return stock; 
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;
